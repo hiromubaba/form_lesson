@@ -10,6 +10,55 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-
+    <div class="wrapper">
+      <div class="inner">
+        <div class="main">
+          <h1 class="main__title">アカウント作成</h1>
+          <div class="content">
+            <div class="content__column">
+              <a href="#" class="column is__facebook">FaceBookでスタート</a>
+            </div>
+            <div class="content__column">
+              <a href="#" class="column is__google">Googleでスタート</a>
+            </div>
+          </div>
+          <p class="sub__text">タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。</p>
+          <div class="information__line">
+            <p class="information">アカウント情報</p>
+          </div>
+          <!---名前--->
+          <form class="form__content">
+            <div class="row name__box">
+              <div class="name content__column">
+                <p class="label__text">名字<span class="alert">※</span></p>
+                <input type="text" name="last__name" class="input__icon">
+              </div>  
+              <div class="name content__column">
+                <p class="label__text">名前<span class="alert">※</span></p>
+                <input type="text" name="first_name" class="input__icon">
+              </div>
+            </div>
+          <!---性別--->
+            <div class="row gender">
+              <p class="label__text">性別</p>
+              <div class="gender__contents">
+                <label class="gender__content">
+                  <input type="radio" name="gender" class="gender__input">
+                  <span>男性</span>
+                </label>
+                <label class="gender__content">
+                  <input type="radio" name="gender" class="gender__input">
+                  <span>女性</span>
+                </label>  
+                <label class="gender__content">
+                  <input type="radio" name="gender" class="gender__input">
+                  <span>その他</span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>  
   </body>
 </html>
