@@ -35,7 +35,7 @@
   width: 50%;
 }
 
-.column {
+.button {
   width: 100%;
   display: inline-block;
   box-sizing: border-box;
@@ -165,7 +165,7 @@
   border-radius: 10px;
 }
 
-.gender__content:checked span::after {
+.gender__input:checked span::after {
   content: '';
   position: absolute;
   left: 4px;
@@ -232,13 +232,40 @@ select {
 
 .course__content input:checked + .course__content__text::after {
   content: '';
-    position: absolute;
-    left: 6px;
-    top: 50%;
-    transform: rotate(45deg);
-    height: 16px;
-    width: 8px;
-    margin-top: -12px;
-    border-right: 3px solid #01bfbd;
-    border-bottom: 3px solid #01bfbd;
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: rotate(45deg);
+  height: 16px;
+  width: 8px;
+  margin-top: -12px;
+  border-right: 3px solid #01bfbd;
+  border-bottom: 3px solid #01bfbd;
+}
+
+.remarks .input__icon {
+  height : 100px;
+}
+
+.submit__btn {
+  background-color: #01bfbd;
+  color: #fff;
+  padding: 13px;
+}
+
+.consent {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text__color {
+  color: #01a6a4;
+}
+
+.verification {
+  text-align: center;
+}
+
+.verification p , .mail {
+  margin-bottom: 8px;
 }
