@@ -47,16 +47,26 @@
 }
 
 .is__facebook {
- background-color: #3b5993;
- color: #fff;
+  background-color: #3b5993;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.is__facebook:hover {
+  background-color: #1a3875;
 }
 
 .is__google {
   color: #dd4b39;
+  transition: 0.3s;
+}
+
+.is__google:hover {
+  background-color: #fbfbfb;
 }
 
 .content__column:last-child {
- margin-left: 8px;
+  margin-left: 8px;
 }
 
 .sub__text {
@@ -122,11 +132,11 @@
   background-color: #fbfbfb;
   border: 1px solid#d9d9d9;
   border-radius: 3px;
-  outline: none;
 }
 
 .input__icon:focus {
   background-color: #fff;
+  outline: 1px #90d7ec solid;
 }
 
 .gender__contents {
@@ -254,6 +264,13 @@ select {
   background-color: #01bfbd;
   color: #fff;
   padding: 13px;
+  transition: 0.3s;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.submit__btn:hover {
+  background-color: #139795;
 }
 
 .consent {
@@ -261,8 +278,18 @@ select {
   line-height: 16px;
 }
 
+.consent a:hover {
+  color: #3ecac8;
+}
+
 .text__color {
   color: #01a6a4;
+  padding-bottom: 1px;
+}
+
+.verification a:hover {
+  text-decoration: none;
+  border-bottom: solid 1px#3ecac8;
 }
 
 .verification {
@@ -272,3 +299,5 @@ select {
 .verification p , .mail {
   margin-bottom: 8px;
 }
+
+
