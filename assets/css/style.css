@@ -53,7 +53,7 @@
 }
 
 .is__facebook:hover {
-  background-color: #1a3875;
+  background-color: #344e87;
 }
 
 .is__google {
@@ -62,7 +62,7 @@
 }
 
 .is__google:hover {
-  background-color: #fbfbfb;
+  background-color: #f7f7f7;
 }
 
 .content__column:last-child {
@@ -270,7 +270,7 @@ select {
 }
 
 .submit__btn:hover {
-  background-color: #4da8a7;
+  background-color: #01a6a4;
 }
 
 .consent {
